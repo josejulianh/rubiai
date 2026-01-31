@@ -1,0 +1,65 @@
+[INICIO DEL PROMPT]
+
+Objetivo: Generar una aplicación web completa llamada **Rubi**, una asistente de inteligencia artificial usando Mistral (uFRnH6hmOw7MtNQJecXJJu5RMK6WjcRF). La aplicación debe incluir **frontend y backend**, login de usuarios, diseño moderno e innovador, chat con Rubi y funcionalidades que la hagan destacar frente a otras IAs.
+
+1. **Frontend**
+- Framework: React.js (o Vue.js si prefieres).
+- Librerías: TailwindCSS para diseño moderno y responsivo, Framer Motion para animaciones.
+- Diseño:
+    * Estilo futurista, minimalista y visualmente impactante.
+    * Avatar dinámico de Rubi con expresiones según emociones detectadas en el texto.
+    * Panel de control personalizable para cada usuario.
+    * Modo oscuro y claro automático.
+    * Elementos interactivos: arrastrar, soltar, seleccionar respuestas de manera divertida.
+- Funcionalidades:
+    * Pantalla de login y registro de usuarios con validación.
+    * Dashboard con historial de conversaciones y preferencias.
+    * Chat principal con Rubi con respuestas adaptativas según perfil del usuario.
+    * Mini-juegos integrados o “tip sorpresa” diario.
+    * Panel de estadísticas y logros.
+    * Notificaciones suaves de reenganche si hay inactividad.
+
+2. **Backend**
+- Lenguaje: Node.js con Express o Python con FastAPI.
+- Base de datos: PostgreSQL o MongoDB.
+- Autenticación:
+    * JWT para sesiones seguras.
+    * OAuth opcional (Google, GitHub).
+- Funcionalidades:
+    * Registro y login seguro de usuarios.
+    * Guardado de historial de conversaciones y preferencias.
+    * Endpoints REST o GraphQL para frontend.
+    * Integración con Mistral para generar respuestas de Rubi.
+    * Endpoints para mini-juegos, tips diarios y personalización del avatar.
+- Seguridad:
+    * Encriptación de contraseñas (bcrypt o similar).
+    * Protección contra XSS, CSRF y inyección de código.
+    * Validación de datos y manejo de errores.
+
+3. **Integración IA**
+- Todas las conversaciones deben pasar por la API de Mistral.
+- Rubi debe adaptar respuestas al perfil del usuario, recordando preferencias.
+- Debe generar respuestas creativas, amigables y personalizadas.
+- Posibilidad de contenido multimedia (imágenes, memes, sonidos).
+
+4. **Extras para destacar**
+- Avatar interactivo con gestos según emociones.
+- Mini-juegos integrados dentro del chat o dashboard.
+- Panel de estadísticas y logros del usuario.
+- Animaciones y transiciones suaves en todo el frontend.
+- Experiencia de usuario única, moderna y divertida.
+
+5. **Estructura final**
+- `/frontend` para React.js (o Vue.js) con componentes, páginas y estilos.
+- `/backend` para Node.js/Express o Python/FastAPI con endpoints y autenticación.
+- README con instrucciones de instalación, configuración y despliegue.
+- Scripts para iniciar frontend y backend con un solo comando.
+- Comentarios claros en el código explicando cada módulo y funcionalidad.
+
+6. **Instrucciones de generación**
+- Genera todo el código de frontend y backend completo.
+- Incluye archivos de configuración como package.json, requirements.txt, tailwind.config.js, etc.
+- Asegúrate de que el login, el chat con Rubi y el panel de control funcionen de manera integrada.
+- Mantén buenas prácticas de código, seguridad y estructura modular.
+
+[FIN DEL PROMPT]

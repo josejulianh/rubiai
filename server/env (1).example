@@ -1,0 +1,26 @@
+# ===========================================
+# RUBI AI ASSISTANT - Environment Variables for Render
+# ===========================================
+
+# Database
+DATABASE_URL=postgresql://username:password@host:port/database?sslmode=require
+
+# Server
+NODE_ENV=production
+PORT=10000
+
+# Stripe (Required for premium features)
+STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key_here
+STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key_here
+STRIPE_WEBHOOK_SECRET=whsec_your_webhook_secret_here
+
+# Mistral AI (Required for AI features)
+MISTRAL_API_KEY=your_mistral_api_key_here
+MISTRAL_MODEL=mistral-large-latest
+
+# Render (Automatically provided by Render)
+RENDER_EXTERNAL_URL=https://your-app.onrender.com
+RENDER_SERVICE_NAME=your-service-name
+
+# Optional: Session Secret
+SESSION_SECRET=your-random-session-secret-here

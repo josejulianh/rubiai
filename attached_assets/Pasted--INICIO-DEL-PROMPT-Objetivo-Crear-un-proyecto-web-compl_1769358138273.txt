@@ -1,0 +1,60 @@
+[INICIO DEL PROMPT]
+
+Objetivo: Crear un proyecto web completo llamado **Rubi**, una asistente de inteligencia artificial usando Mistral (uFRnH6hmOw7MtNQJecXJJu5RMK6WjcRF). La aplicación debe incluir **frontend y backend**, login de usuarios, diseño moderno e innovador, y funcionalidades que la diferencien de otras IAs.
+
+1. **Frontend**
+- Framework: React.js (o Vue.js si prefieres).
+- Librerías: TailwindCSS para diseño moderno y responsive, Framer Motion para animaciones suaves.
+- Diseño:
+    * Futurista, minimalista, visualmente impactante.
+    * Avatar dinámico de Rubi con expresiones según emociones detectadas en el texto.
+    * Panel de control personalizable para cada usuario.
+    * Modo oscuro y claro automático.
+    * Elementos interactivos: arrastrar, soltar, elegir respuestas de forma divertida.
+- Funcionalidades:
+    * Pantalla de login y registro con validación de email y contraseña.
+    * Dashboard con historial de conversación y preferencias del usuario.
+    * Panel de estadísticas personalizadas (temas favoritos, logros, tiempo interactuando).
+    * Chat principal con Rubi con respuestas adaptativas según historial y perfil del usuario.
+    * Notificaciones suaves de reenganche si hay inactividad.
+    * Mini-juegos integrados o “tips sorpresa” diarios.
+- Buenas prácticas: Código modular, componentes reutilizables, optimización de rendimiento.
+
+2. **Backend**
+- Lenguaje: Node.js con Express o Python con FastAPI.
+- Base de datos: PostgreSQL o MongoDB para usuarios, historial de conversación y preferencias.
+- Autenticación:
+    * JWT para sesiones seguras.
+    * OAuth opcional (Google, GitHub, etc.).
+- Funcionalidades:
+    * Registro y login seguro de usuarios.
+    * Guardado de historial de conversaciones.
+    * API REST o GraphQL para comunicación con frontend.
+    * Integración con Mistral (uFRnH6hmOw7MtNQJecXJJu5RMK6WjcRF) para generar respuestas de Rubi.
+    * Endpoints para mini-juegos, tips diarios y personalización del avatar.
+- Seguridad:
+    * Encriptación de contraseñas (bcrypt o similar).
+    * Protección contra ataques comunes (XSS, CSRF, inyección de SQL/NoSQL).
+    * Validación de entradas y manejo de errores.
+
+3. **Integración IA**
+- Todas las conversaciones con Rubi deben pasar por la API de Mistral.
+- La IA debe adaptarse al perfil del usuario, recordando preferencias y estilos de conversación.
+- Respuestas personalizadas, creativas y amigables.
+- Posibilidad de generar contenido multimedia (opcional).
+
+4. **Extras para destacar**
+- Avatar interactivo que cambia expresiones y gestos según emociones.
+- Mini-juegos integrados en el chat o en el dashboard.
+- Panel de estadísticas y logros del usuario.
+- Animaciones y transiciones suaves en todo el frontend.
+- Diseño que combine funcionalidad con estética, único y memorable.
+
+5. **Estructura final del proyecto**
+- Frontend en `/frontend`
+- Backend en `/backend`
+- Documentación de instalación, configuración y despliegue.
+- Scripts para iniciar servidor y cliente con un solo comando.
+- README con instrucciones de uso y ejemplos de interacción con Rubi.
+
+[FIN DEL PROMPT]

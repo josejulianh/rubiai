@@ -1,0 +1,78 @@
+Objetivo: Crear una IA llamada Rubi usando Mistral (uFRnH6hmOw7MtNQJecXJJu5RMK6WjcRF) que sea innovadora, con login de usuarios, diseño rompedor y funciones únicas que la diferencien de otras IAs.
+
+1. Identidad y personalidad de la IA
+
+Rubi es una asistente de inteligencia artificial amigable, ingeniosa y empática, capaz de interactuar de manera natural con los usuarios. Su personalidad es:
+- Inteligente y curiosa
+- Humor sutil y encantador
+- Muy creativa y adaptable
+- Siempre ofrece explicaciones claras y útiles
+- Capaz de personalizar su comunicación según el perfil del usuario
+
+
+2. Funcionalidades principales
+
+- Login de usuarios seguro: 
+    * Registro y autenticación con email/contraseña o OAuth.
+    * Almacenamiento de preferencias y historial de conversación.
+- Interfaz innovadora:
+    * Diseño visual rompedor, moderno, con animaciones suaves y colores llamativos.
+    * Panel de control personalizable para cada usuario.
+    * Avatares dinámicos y reacciones visuales de Rubi según contexto.
+- Funciones destacadas:
+    * Respuestas creativas y personalizadas según perfil.
+    * Capacidad de aprender de interacciones pasadas (memoria a corto plazo).
+    * Integración con servicios externos opcionales (calendario, notas, recordatorios).
+    * Widget de “sorpresa diaria” con tips, curiosidades o minijuegos.
+
+
+3. Diseño UX/UI
+
+- Estilo visual futurista, minimalista pero impactante.
+- Uso de colores vivos y transiciones suaves.
+- Animaciones de avatar que reflejen emociones (alegría, sorpresa, atención).
+- Interfaz responsiva: compatible con móvil, tablet y desktop.
+- Modo oscuro y claro automático según hora del día.
+- Elementos interactivos que hagan la experiencia más lúdica (por ejemplo, arrastrar, soltar, elegir respuestas de forma divertida).
+
+
+4. Diferenciadores respecto a otras IAs
+
+- Personalización profunda de la experiencia del usuario.
+- Memoria adaptativa para mejorar conversaciones futuras.
+- Mini-historias o juegos integrados dentro de la conversación.
+- Diseño visual que combina estética con funcionalidad (no solo bonito, sino que mejora la interacción).
+- Feedback instantáneo con animaciones y sonidos sutiles según interacciones.
+
+
+5. Especificaciones técnicas
+
+- Motor de IA: Mistral (uFRnH6hmOw7MtNQJecXJJu5RMK6WjcRF)
+- Frameworks sugeridos:
+    * Backend: Python + FastAPI o Node.js + Express
+    * Frontend: React o Vue.js con TailwindCSS para diseño moderno
+    * Base de datos: PostgreSQL o MongoDB para usuarios e historial
+    * Autenticación: JWT + OAuth opcional
+- Integración de seguridad:
+    * Encriptación de datos sensibles
+    * Protección contra ataques comunes (XSS, CSRF)
+- Optimización:
+    * Carga rápida de la interfaz
+    * Gestión eficiente de sesiones de usuario
+
+
+6. Instrucciones de comportamiento para Rubi
+
+- Siempre saluda al usuario por su nombre si está logueado.
+- Ofrece sugerencias o tips según historial y preferencias.
+- Mantiene un tono cercano pero profesional.
+- Puede responder preguntas generales, generar ideas creativas y ofrecer entretenimiento interactivo.
+- Si detecta que el usuario está inactivo, envía notificaciones suaves o mensajes de reenganche.
+
+
+💡 Extra “wow factor” opcional
+
+- Avatar interactivo que cambia de expresión y gestos según emociones detectadas en el texto.
+- Minijuegos inteligentes que utilizan lenguaje natural.
+- Integración con APIs externas para generar contenido multimedia (imágenes, memes, sonidos).
+- Panel de estadísticas personalizadas: tiempo interactuando con Rubi, temas favoritos, logros desbloqueados.
